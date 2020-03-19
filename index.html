@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Momentum</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body id="background">
+        <div class="center">
+            <div id="clock">00:00</div>
+            <div id="greeting">
+                <form id = "form" autocomplete=”off”>
+                    <label for="value">value</label>
+                    <div class="block">
+                        <input id="greetingInput" type="text" name="value" size="40">
+                        <input id="greetingBtn" type="button" value="&gt">
+                    </div>
+                </form>
+                <div id="greetingComment">Hi</div>
+            </div>
+            <div id="todo">
+                <div id="todoComment">What is your main focus for today</div>
+                <input id="todoInput" type="text" name="value" size="40">
+                <input id="todoBtn" type="button" value="&gt">
+                <div id="todoList"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div id="weather">
+                <div class="name">Seoul</div>
+                <div class="temp">0</div>
+                <div class="weather">Clear</div>
+            </div>
+        </div>
+
+        <script src="./libs/background.js"></script>
+        <script src="./libs/clock.js"></script>
+        <script src="./libs/greeting.js"></script>
+        <script src="./libs/todo.js"></script>
+        <script src="./libs/weather.js"></script>
+    </body>
+</html>
